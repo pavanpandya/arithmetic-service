@@ -1,6 +1,6 @@
 
-function add(n, m){
-    return n + m;
+function evaluate_Expression(expression){
+    return eval(expression);
 }
 
-module.exports = { add }
+module.exports = { evaluate_Expression }
