@@ -1,6 +1,5 @@
-
-function evaluate_Expression(expression){
-    return eval(expression);
+function evaluate_Expression(expression) {
+  return eval(expression);
 }
 
-module.exports = { evaluate_Expression }
+module.exports = { evaluate_Expression };
